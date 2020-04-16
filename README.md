@@ -45,7 +45,7 @@
 
 - A partir da raiz do projeto, entre na pasta do backend rodando `cd backend`;
 - Rode `yarn` para instalar as dependências;
-- Crie um banco de dados no `postgres` com o nome de `gobarber`;
+- Crie um banco de dados no `postgres` com o nome de `db_gobarber`;
 - Rode `cp .env.example .env` e preencha o arquivo `.env` com **SUAS** variáveis ambiente;
 - Rode `yarn sequelize db:migrate` para executar as migrations;
 - Rode `yarn dev` para iniciar o servidor.
